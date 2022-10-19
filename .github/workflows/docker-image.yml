@@ -26,6 +26,9 @@ jobs:
         name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
       -
+        name: Customization of SHA up to 7 characters 
+        run: echo "GITHUB_SHA_CUSTOMIZE=$(echo $GITHUB_SHA | cut -c 1-7)" >> $GITHUB_ENV
+      -
         name: Build and push
         uses: docker/build-push-action@v3
         with:
@@ -33,6 +36,7 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/api-mitu-institute:${{ steps.meta.outputs.tags }}
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/api-mip-institute:${{ env.GITHUB_SHA_CUSTOMIZE }}
           cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/api-mitu-institute:buildcache
           cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/api-mitu-institute:buildcache,mode=max
+
