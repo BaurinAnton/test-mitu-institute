@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_program_resume_skills",
+  "info": {
+    "name": "resumeSkills",
+    "icon": "chess-knight"
+  },
+  "options": {},
+  "attributes": {
+    "skill": {
+      "type": "richtext"
+    }
+  }
+}

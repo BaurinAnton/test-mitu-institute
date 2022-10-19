@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "document_subcategories",
+  "info": {
+    "name": "documentSubcategories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "documents": {
+      "via": "document_subcategory",
+      "collection": "document"
+    },
+    "numeric_order": {
+      "via": "document_subcategory",
+      "model": "numeric-order"
+    },
+    "document_category": {
+      "via": "document_subcategories",
+      "model": "document-categories"
+    }
+  }
+}

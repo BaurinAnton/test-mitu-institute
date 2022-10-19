@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_section_your_future_diplomas",
+  "info": {
+    "name": "SectionYourFutureDiploma",
+    "icon": "chess-board"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title"
+    },
+    "diplomas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.diplomas"
+    }
+  }
+}

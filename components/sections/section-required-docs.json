@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_land_sections_section_required_docs",
+  "info": {
+    "name": "SectionLeastDocuments",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title"
+    },
+    "docs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.list-of-strings"
+    }
+  }
+}

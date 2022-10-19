@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_program_what_you_will_learns",
+  "info": {
+    "name": "whatYouWillLearn",
+    "icon": "hamsa"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}

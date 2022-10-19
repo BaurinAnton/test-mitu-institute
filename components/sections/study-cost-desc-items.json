@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_study_cost_desc_items",
+  "info": {
+    "name": "studyCostDescItems",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    },
+    "isBold": {
+      "type": "boolean"
+    }
+  }
+}

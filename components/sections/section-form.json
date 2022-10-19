@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_section_forms",
+  "info": {
+    "name": "SectionUIFormAlpha",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.form"
+    }
+  }
+}

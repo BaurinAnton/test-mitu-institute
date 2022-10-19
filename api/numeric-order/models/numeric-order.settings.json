@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "numeric_orders",
+  "info": {
+    "name": "numeric-order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "index": {
+      "type": "biginteger",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "document_category": {
+      "via": "numeric_order",
+      "model": "document-categories"
+    },
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "document_subcategory": {
+      "via": "numeric_order",
+      "model": "document-subcategories"
+    },
+    "document": {
+      "via": "numeric_order",
+      "model": "document"
+    }
+  }
+}

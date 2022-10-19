@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_program_how_process_goes",
+  "info": {
+    "name": "howProcessGoes",
+    "icon": "bacon"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "courseContainsOf": {
+      "type": "component",
+      "repeatable": true,
+      "component": "program.course-contains-of"
+    }
+  }
+}

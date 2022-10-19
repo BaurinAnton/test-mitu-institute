@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_program_course_contains_ofs",
+  "info": {
+    "name": "courseContainsOf",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "percent": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/study-forms",
+      "handler": "study-form.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/study-forms/count",
+      "handler": "study-form.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/study-forms/:id",
+      "handler": "study-form.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/study-forms",
+      "handler": "study-form.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/study-forms/:id",
+      "handler": "study-form.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/study-forms/:id",
+      "handler": "study-form.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

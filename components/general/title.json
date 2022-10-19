@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_titles",
+  "info": {
+    "name": "title",
+    "icon": "chess-rook"
+  },
+  "options": {},
+  "attributes": {
+    "titlePart": {
+      "type": "string"
+    },
+    "highlight": {
+      "type": "boolean"
+    }
+  }
+}

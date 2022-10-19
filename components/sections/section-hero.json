@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_land_section_heroes",
+  "info": {
+    "name": "SectionHero",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title"
+    },
+    "pros": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.list-of-strings"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.form"
+    }
+  }
+}

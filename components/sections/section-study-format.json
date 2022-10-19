@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_section_study_formats",
+  "info": {
+    "name": "SectionTrainingFormat",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title"
+    },
+    "online": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.list-of-strings"
+    },
+    "partTime": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.list-of-strings"
+    },
+    "cta": {
+      "type": "string"
+    }
+  }
+}

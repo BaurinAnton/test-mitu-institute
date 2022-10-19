@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_btns",
+  "info": {
+    "name": "Btn",
+    "icon": "cannabis"
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string"
+    },
+    "val": {
+      "type": "string"
+    }
+  }
+}

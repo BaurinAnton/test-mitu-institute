@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_general_list_of_strings",
+  "info": {
+    "name": "listOfStrings",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_program_for_whoms",
+  "info": {
+    "name": "forWhom",
+    "icon": "fingerprint",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title"
+    },
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}

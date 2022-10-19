@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "lands",
+  "info": {
+    "name": "pagePromo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.section-hero",
+        "sections.section-required-docs",
+        "sections.section-no-exam",
+        "sections.section-about-us",
+        "sections.how-process-goes",
+        "sections.section-study-format",
+        "sections.section-your-future-diploma",
+        "sections.section-form",
+        "sections.section-faq",
+        "sections.section-our-programs"
+      ]
+    }
+  }
+}

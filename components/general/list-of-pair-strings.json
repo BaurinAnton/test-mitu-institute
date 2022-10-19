@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_list_of_pair_strings",
+  "info": {
+    "name": "listOfPairStrings",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}

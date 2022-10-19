@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_program_timenprices",
+  "info": {
+    "name": "timenprice",
+    "icon": "music",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "studyMonthsDuration": {
+      "type": "biginteger"
+    },
+    "studyHours": {
+      "type": "biginteger"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "discount": {
+      "type": "biginteger"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

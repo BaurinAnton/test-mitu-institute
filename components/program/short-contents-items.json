@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_program_short_contents_items",
+  "info": {
+    "name": "shortContentsDescs",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}

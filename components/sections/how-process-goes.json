@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_how_process_goes",
+  "info": {
+    "name": "SectionHowTrainingGoes",
+    "icon": "brain",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.list-of-pair-strings"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title"
+    }
+  }
+}

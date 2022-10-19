@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_section_faqs",
+  "info": {
+    "name": "SectionFAQ",
+    "icon": "balance-scale"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title"
+    },
+    "qnas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.list-of-pair-strings"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.form"
+    }
+  }
+}

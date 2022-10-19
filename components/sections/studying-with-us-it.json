@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_studying_with_us_its",
+  "info": {
+    "name": "studyingWithUsIt",
+    "icon": "balance-scale-right"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}

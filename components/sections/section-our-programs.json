@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_section_our_programs",
+  "info": {
+    "name": "SectionOurPrograms",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title"
+    }
+  }
+}
