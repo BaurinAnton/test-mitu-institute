@@ -36,7 +36,7 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/api-mitu-institute:prod-${{ env.GITHUB_SHA_CUSTOMIZE }}
-          cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/api-mitu-institute:prod-buildcache
-          cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/api-mitu-institute:prod-buildcache,mode=max
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/prod-api-mitu-institute:${{ env.GITHUB_SHA_CUSTOMIZE }}
+          cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/prod-api-mitu-institute:buildcache
+          cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/prod-api-mitu-institute:buildcache,mode=max
 
