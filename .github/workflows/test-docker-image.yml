@@ -1,10 +1,10 @@
-name: api-mitu-institute
+name: test-api-mitu-institute
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "test" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "test" ]
 
 jobs:
 
@@ -36,7 +36,7 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/api-mitu-institute:${{ env.GITHUB_SHA_CUSTOMIZE }}
-          cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/api-mitu-institute:buildcache
-          cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/api-mitu-institute:buildcache,mode=max
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/api-mitu-institute:test-${{ env.GITHUB_SHA_CUSTOMIZE }}
+          cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/api-mitu-institute:test-buildcache
+          cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/api-mitu-institute:test-buildcache,mode=max
 
